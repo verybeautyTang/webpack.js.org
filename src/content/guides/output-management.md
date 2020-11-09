@@ -185,7 +185,7 @@ __webpack.config.js__
 ``` diff
   const path = require('path');
   const HtmlWebpackPlugin = require('html-webpack-plugin');
-+ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
++ const { CleanWebpackPlugin } = require('clean-webpack-plugin'); // 新版改版之后必须加上{}使用
 
   module.exports = {
     entry: {
